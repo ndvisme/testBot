@@ -17,16 +17,6 @@ services:
       BROWSER_URL: 'ws://browser:3000'
     depends_on:
       - browser
-
-  mongodb:
-    image: mongo:4.2.1-bionic
-    ports:
-      - '27017:27017'
-    volumes:
-      - ./db-data-mongodb:/data/db
-    networks:
-      - whats-app-bot
-
   browser:
     image: browserless/chrome:latest
     hostname: browser
