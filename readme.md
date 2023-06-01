@@ -21,3 +21,9 @@ Start the server
   node node whats-app-bot-events/index.js
 ```
 
+
+
+
+## Related
+
+[Whatapp-web.js](https://wwebjs.dev/)
