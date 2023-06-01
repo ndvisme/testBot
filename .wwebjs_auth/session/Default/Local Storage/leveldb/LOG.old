@@ -1,2 +1,3 @@
-2023/05/28-18:58:38.037 1b Creating DB /usr/src/app/user-data-dir/Default/Local Storage/leveldb since it was missing.
-2023/05/28-18:58:38.053 1b Reusing MANIFEST /usr/src/app/user-data-dir/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/28-18:58:51.466 8f Reusing MANIFEST /usr/src/app/user-data-dir/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/28-18:58:51.474 8f Recovering log #3
+2023/05/28-18:58:51.476 8f Reusing old log /usr/src/app/user-data-dir/Default/Local Storage/leveldb/000003.log 

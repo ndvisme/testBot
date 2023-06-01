@@ -18,6 +18,6 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  node node whats-app-bot-events/index.js
 ```
 
