@@ -5,12 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    tty: true
-    working_dir: /home/node
     ports:
       - 3001:3001
-    volumes:
-      - .:/home/node
     networks:
       - whats-app-bot
     environment:
