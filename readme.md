@@ -27,3 +27,5 @@ Start the server
 ## Related
 
 [Whatapp-web.js](https://wwebjs.dev/)
+
+[Src Github Issue](https://github.com/pedroslopez/whatsapp-web.js/issues/1349)

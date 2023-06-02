@@ -1,3 +1,8 @@
-2023/06/01-18:55:47.735 90 Reusing MANIFEST /usr/src/app/user-data-dir/Default/Local Storage/leveldb/MANIFEST-000001
-2023/06/01-18:55:47.743 90 Recovering log #3
-2023/06/01-18:55:47.745 90 Reusing old log /usr/src/app/user-data-dir/Default/Local Storage/leveldb/000003.log 
+2023/06/01-19:48:49.972 1d Reusing MANIFEST /usr/src/app/user-data-dir/Default/Local Storage/leveldb/MANIFEST-000001
+2023/06/01-19:48:49.984 1d Recovering log #3
+2023/06/01-19:48:49.985 1d Level-0 table #3: started
+2023/06/01-19:48:49.995 1d Level-0 table #3: 2156 bytes OK
+2023/06/01-19:48:49.996 1d Recovering log #4
+2023/06/01-19:48:49.997 1d Reusing old log /usr/src/app/user-data-dir/Default/Local Storage/leveldb/000004.log 
+2023/06/01-19:48:50.008 1d Delete type=0 #3
+2023/06/01-19:48:50.008 1d Delete type=2 #5
