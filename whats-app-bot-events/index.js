@@ -19,7 +19,12 @@ client.on("qr", (qr) => {
 
 client.on("ready", async () => {
   console.log("Client is ready!");
+  client.getChats((chats) => {
+    console.log(chats);
+  });
 });
+
+
 
 client.on("message", async (message) => {
   console.log(message);
