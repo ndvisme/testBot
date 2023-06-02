@@ -1,5 +1,4 @@
 const qrcode = require("qrcode-terminal");
-const { GroupChat } = require("whatsapp-web.js");
 const { Client, LocalAuth } = require("whatsapp-web.js");
 
 const client = new Client({
@@ -19,15 +18,11 @@ client.on("qr", (qr) => {
 
 client.on("ready", async () => {
   console.log("Client is ready!");
-  client.getChats((chats) => {
+  await new Promise((resolve) => setTimeout(resolve, 5000));
+
+  client.getChats().then((chats) => {
     console.log(chats);
   });
-});
-
-
-
-client.on("message", async (message) => {
-  console.log(message);
 });
 
 client.initialize().catch(console.error);
